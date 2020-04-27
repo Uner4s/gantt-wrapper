@@ -13,7 +13,7 @@ npm install --save gantt-wrapper or yarn add gantt-wrapper
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 import GanttWrapper from 'gantt-wrapper'
 
 import styles from './styles.module.css'

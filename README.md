@@ -33,6 +33,7 @@ const Example = (props) => {
   return (
     <div className={styles.container}>
       <GanttWrapper
+        customStyle={styles.custom}
         tasks={tasks}
         viewMode='Day'
         onClick={(task) => console.log(task)}
@@ -50,5 +51,3 @@ export default Example
 ## License
 
 MIT ©
-
-# gantt-wrapper

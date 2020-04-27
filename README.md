@@ -28,3 +28,4 @@ class Example extends Component {
 ## License
 
 MIT © [Uner4s](https://github.com/Uner4s)
+# gantt-wrapper

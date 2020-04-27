@@ -7,25 +7,48 @@
 ## Install
 
 ```bash
-npm install --save gantt-wrapper
+npm install --save gantt-wrapper or yarn add gantt-wrapper
 ```
 
 ## Usage
 
 ```jsx
 import React, { Component } from 'react'
+import GanttWrapper from 'gantt-wrapper'
 
-import MyComponent from 'gantt-wrapper'
-import 'gantt-wrapper/dist/index.css'
+import styles from './styles.module.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
+const tasks = [
+  {
+    id: 'Task 1',
+    name: 'Redesign website',
+    start: '2016-12-28',
+    end: '2016-12-31',
+    progress: 10,
+    dependencies: ''
   }
+]
+
+const Example = (props) => {
+  return (
+    <div className={styles.container}>
+      <GanttWrapper
+        tasks={tasks}
+        viewMode='Day'
+        onClick={(task) => console.log(task)}
+        onDateChange={(task, start, end) => console.log(task, start, end)}
+        onProgressChange={(task, progress) => console.log(task, progress)}
+        onTasksChange={(tasks) => console.log(tasks)}
+      />
+    </div>
+  )
 }
+
+export default Example
 ```
 
 ## License
 
-MIT © [Uner4s](https://github.com/Uner4s)
+MIT ©
+
 # gantt-wrapper

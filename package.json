@@ -1,6 +1,6 @@
 {
   "name": "gantt-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "wrapper of frappe-gantt package",
   "author": "Uner4s",
   "license": "MIT",
@@ -51,6 +51,6 @@
     "dist"
   ],
   "dependencies": {
-    "frappe-gantt-with-roles": "^0.3.3"
+    "frappe-gantt-with-roles": "^0.4.0"
   }
 }

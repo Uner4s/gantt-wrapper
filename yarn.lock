@@ -4764,10 +4764,10 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
-frappe-gantt-with-roles@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/frappe-gantt-with-roles/-/frappe-gantt-with-roles-0.3.3.tgz#bdc1be381418140c522059b3d1259d4b29eb2a1b"
-  integrity sha512-wDu+qkhLYmVVcooYKct+UTh78ada/GBI44cDSBf6V7MeLoY7nl54kOR4g5e+oI0lbvlRof/MbMRN4pIcsxdwCw==
+frappe-gantt-with-roles@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/frappe-gantt-with-roles/-/frappe-gantt-with-roles-0.4.0.tgz#0f2adfad721e1cc4dbfe2a404cf2c3afd6710af5"
+  integrity sha512-K232S8Le6kih6ayLOckhxFH6K/aP9G8YiP5rQgftkTewDYj3KxWhVPA36GqbJWjsRQN99kQ8f2Got1aDhvTf2Q==
 
 fresh@0.5.2:
   version "0.5.2"
@@ -5165,9 +5165,9 @@ hmac-drbg@^1.0.0:
     minimalistic-crypto-utils "^1.0.1"
 
 hosted-git-info@^2.1.4:
-  version "2.8.8"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
-  integrity sha512-f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hpack.js@^2.1.6:
   version "2.1.6"
